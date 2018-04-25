@@ -46,49 +46,49 @@ jQuery(function(){
 				if (opsi.length == 4){
 					if (blueprint[n] == 'fav'){
 						if (data[a][n] == opsi[0]){
-							skoring.push('4');
+							skoring.push('Sangat Tidak Setuju');
 						} else if (data[a][n] == opsi[1]){
-							skoring.push('3');
+							skoring.push('Tidak Setuju');
 						} else if (data[a][n] == opsi[2]){
-							skoring.push('2');
+							skoring.push('Setuju');
 						} else if (data[a][n] == opsi[3]){
-							skoring.push('1');
+							skoring.push('Sangat Setuju');
 						}
 					} else if (blueprint[n] == 'unfav'){
 						if (data[a][n] == opsi[0]){
-							skoring.push('1');
+							skoring.push('Sangat Setuju');
 						} else if (data[a][n] == opsi[1]){
-							skoring.push('2');
+							skoring.push('Setuju');
 						} else if (data[a][n] == opsi[2]){
-							skoring.push('3');
+							skoring.push('Tidak Setuju');
 						} else if (data[a][n] == opsi[3]){
-							skoring.push('4');
+							skoring.push('Sangat Tidak Setuju');
 						}
 					}
 				} else if (opsi.length == 5){
 					if (blueprint[n] == 'fav'){
 						if (data[a][n] == opsi[0]){
-							skoring.push('5');
+							skoring.push('Sangat Tidak Setuju');
 						} else if (data[a][n] == opsi[1]){
-							skoring.push('4');
+							skoring.push('Tidak Setuju');
 						} else if (data[a][n] == opsi[2]){
-							skoring.push('3');
+							skoring.push('Netral');
 						} else if (data[a][n] == opsi[3]){
-							skoring.push('2');
+							skoring.push('Setuju');
 						} else if (data[a][n] == opsi[4]){
-							skoring.push('1');
+							skoring.push('Sangat Setuju');
 						}
 					} else if (blueprint[n] == 'unfav'){
 						if (data[a][n] == opsi[0]){
-							skoring.push('1');
+							skoring.push('Sangat Setuju');
 						} else if (data[a][n] == opsi[1]){
-							skoring.push('2');
+							skoring.push('Setuju');
 						} else if (data[a][n] == opsi[2]){
-							skoring.push('3');
+							skoring.push('Netral');
 						} else if (data[a][n] == opsi[3]){
-							skoring.push('4');
+							skoring.push('Tidak Setuju');
 						} else if (data[a][n] == opsi[4]){
-							skoring.push('5');
+							skoring.push('Sangat Tidak Setuju');
 						}
 					}
 				}
