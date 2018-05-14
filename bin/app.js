@@ -1,5 +1,5 @@
 jQuery(function(){
-	$('.convert').click(function(){
+	$('.form-control').keyup(function(){
 
 		// deklarasi
 
